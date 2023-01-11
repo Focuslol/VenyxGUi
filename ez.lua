@@ -15,7 +15,7 @@ local OrionLib = {
 	Themes = {
 		Default = {
 			Main = Color3.fromRGB(27, 27, 27),
-			Second = Color3.fromRGB(41, 41, 41),
+			Second = Color3.fromRGB(46, 46, 46),
 			Stroke = Color3.fromRGB(255, 255, 255),
 			Divider = Color3.fromRGB(194, 194, 194),
 			Text = Color3.fromRGB(240, 240, 240),
@@ -328,9 +328,9 @@ end)
 CreateElement("ScrollFrame", function(Color, Width)
 	local ScrollFrame = Create("ScrollingFrame", {
 		BackgroundTransparency = 1,
-		MidImage = "rbxassetid://7445543667",
-		BottomImage = "rbxassetid://7445543667",
-		TopImage = "rbxassetid://7445543667",
+		MidImage = "https://www.roblox.com/library/12112172299/wasa",
+		BottomImage = "https://www.roblox.com/library/12112172299/wasa",
+		TopImage = "https://www.roblox.com/library/12112172299/wasa",
 		ScrollBarImageColor3 = Color,
 		BorderSizePixel = 0,
 		ScrollBarThickness = Width,
